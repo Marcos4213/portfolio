@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AuAu Camargos â Banho e Tosa em Barueri | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para pet shop em Barueri: banho e tosa com agendamento no WhatsApp e Taxi Dog.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFF8F1;--card:#fff;--line:#F0DFCE;--ink:#2A1608;--mut:#8A6A52;--acc:#F4571D;--acc-d:#C93F0E;--gold:#FFC53D;--dark:#1D120A;--r:22px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Sora',sans-serif;letter-spacing:-.02em;line-height:1.08}
+.wrap{max-width:1120px;margin:auto;padding:0 22px}
+.demo{background:var(--dark);color:#F5E6D4;font-size:12.5px;text-align:center;padding:10px 14px}.demo a{color:var(--gold);font-weight:700}
+.nav{position:sticky;top:0;z-index:30;background:rgba(255,248,241,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1120px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Sora';font-weight:800;font-size:17px}.logo em{color:var(--acc);font-style:normal}
+.nav-cta{background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:13.5px;border-radius:999px;padding:11px 20px;transition:transform .35s var(--ease),background .35s}
+.nav-cta:hover{background:var(--acc);transform:translateY(-1px)}
+.hero{padding:54px 0 20px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(244,87,29,.16),transparent 70%);top:-200px;right:-160px}
+.hero-grid{display:grid;gap:36px;align-items:center;position:relative}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc-d)}
+.hero h1{font-size:clamp(36px,6.4vw,64px);margin:16px 0 12px}
+.hero h1 .u{color:var(--acc)}
+.hero .sub{color:var(--mut);font-size:17px;max-width:33rem}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 26px;font-weight:700;font-size:15px;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:#25D366;color:#04331C}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(37,211,102,.4)}
+.btn-p:active{transform:scale(.98)}
+.btn-s{background:var(--ink);color:#fff}.btn-s:hover{background:var(--acc);transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:26px;font-size:13.5px;color:var(--mut)}
+.meta b{display:block;font-family:'Sora';font-size:19px;color:var(--ink)}
+.shot{border-radius:28px;padding:10px;background:#fff;border:1px solid var(--line);box-shadow:0 24px 60px rgba(42,22,8,.14);transform:rotate(1.2deg)}
+.shot img{width:100%;height:360px;object-fit:cover;border-radius:18px}
+.shot .cap{display:flex;justify-content:space-between;padding:12px 8px 4px;font-size:13px;color:var(--mut)}
+.pill{background:var(--acc);color:#fff;font-weight:700;font-size:11px;border-radius:999px;padding:4px 10px}
+.sec{padding:70px 0}
+.sec h2{font-size:clamp(27px,4.2vw,42px);margin:10px 0 8px}
+.lede{color:var(--mut);max-width:38rem}
+.plans{display:grid;gap:16px;margin-top:30px}
+.plan{background:var(--card);border:2px solid var(--line);border-radius:var(--r);padding:26px;position:relative;transition:transform .5s var(--ease),box-shadow .5s,border-color .5s}
+.plan:hover{transform:translateY(-4px);box-shadow:0 22px 48px rgba(42,22,8,.12)}
+.plan.hot{border-color:var(--acc);background:var(--dark);color:#FFF3E6}
+.plan.hot p{color:#D9BE9F}.plan.hot .pr b{color:var(--gold)}
+.plan .flag{position:absolute;top:-13px;left:22px;background:var(--acc);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;border-radius:999px;padding:5px 12px}
+.plan h3{font-size:19px}.plan p{font-size:14px;color:var(--mut);margin:6px 0 4px}
+.plan ul{list-style:none;margin:14px 0;display:grid;gap:8px;font-size:14px}
+.plan ul li:before{content:"â ";color:var(--acc);font-weight:700}
+.plan.hot ul li:before{color:var(--gold)}
+.plan .pr{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.plan .pr b{font-family:'Sora';font-size:30px}
+.plan .pr a{background:var(--acc);color:#fff;font-weight:700;font-size:14px;text-decoration:none;border-radius:999px;padding:12px 20px;transition:transform .3s var(--ease)}
+.plan .pr a:hover{transform:translateY(-2px)}
+.serv{display:grid;gap:14px;margin-top:26px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.svc img{width:100%;height:180px;object-fit:cover}
+.svc .pad{padding:20px}.svc h3{font-size:18px}.svc p{font-size:14px;color:var(--mut)}
+.band{background:var(--dark);color:#FFF3E6;border-radius:26px;padding:40px 32px;display:grid;gap:24px}
+.band h2{color:#fff}.band p{color:#D9BE9F}
+.taxi{display:grid;gap:12px}
+.tx{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:20px}
+.tx b{font-family:'Sora';font-size:28px;color:var(--gold);display:block}.tx span{font-size:13.5px}
+.quotes{display:grid;gap:14px;margin-top:26px}
+.q{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}
+.q .st{color:var(--acc);letter-spacing:2px}.q p{font-size:15.5px;margin-top:6px}.q footer{margin-top:12px;font-size:13px;color:var(--mut)}.q footer b{color:var(--ink)}
+.faq{margin-top:24px;display:grid;gap:10px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.faq summary{font-weight:700;cursor:pointer;font-size:15px}
+.faq p{font-size:14px;color:var(--mut);margin-top:8px}
+.visit{background:var(--acc);color:#fff;border-radius:22px;padding:32px;margin-top:26px;display:grid;gap:16px;text-align:center}
+.visit h2{color:#fff}.visit p{color:#FFE3D2;font-size:14.5px}
+.visit .btn-p{background:#fff;color:var(--acc-d);justify-content:center}
+footer{padding:26px 0 96px;text-align:center;font-size:12.5px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:#25D366;color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;box-shadow:0 14px 34px rgba(0,0,0,.3);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.02fr .98fr}.plans{grid-template-columns:repeat(3,1fr)}.serv{grid-template-columns:repeat(3,1fr)}.band{grid-template-columns:1fr 1.3fr;align-items:center}.taxi{grid-template-columns:repeat(2,1fr)}.quotes{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:899px){.shot{transform:none}.shot img{height:260px}.sec{padding:52px 0}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â trocamos logo, fotos e Whats do seu pet shop em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="logo">AuAu <em>Camargos</em></span><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20agendar%20banho%20(demo)">Agendar banho â</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<span class="badge">â Centro Â· Camargos Â· Boa Vista</span>
+<h1>Banho cheiroso, <span class="u">sem estresse</span> pro seu pet.</h1>
+<p class="sub">Buscamos e devolvemos em casa. VocÃª acompanha tudo pelo WhatsApp, com foto do antes e depois.</p>
+<div class="ctas"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20agendar%20banho%20(demo)">Agendar banho <span class="arr">â</span></a><a class="btn btn-s" href="#planos">Ver preÃ§os</a></div>
+<div class="meta"><div><b>4.8â</b>210 avaliaÃ§Ãµes</div><div><b>Taxi Dog</b>busca em casa</div><div><b>SegâSÃ¡b</b>9h Ã s 19h</div></div>
+</div>
+<div class="shot reveal"><img src="https://picsum.photos/seed/happy-dog-grooming/880/720" alt="Cachorro apÃ³s banho" fetchpriority="high"><div class="cap"><span>Spitz Â· tosa bebÃª de hoje</span><span class="pill">antes / depois no Whats</span></div></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="planos">
+<h2>PreÃ§o na mesa, sem surpresa.</h2>
+<p class="lede">Valor por porte, fechado no Whats antes de buscar. Pacote mensal sai mais barato.</p>
+<div class="plans">
+<div class="plan reveal"><h3>Banho</h3><p>Pequeno porte Â· shampoo premium, secagem e perfume.</p><ul><li>Banho com Ã¡gua morna</li><li>Corte de unha</li><li>Foto no Whats</li></ul><div class="pr"><b>R$49</b><a href="https://wa.me/5511930729435?text=Quero%20banho%20R49%20(demo)">Agendar</a></div></div>
+<div class="plan hot reveal"><span class="flag">MAIS PEDIDO</span><h3>Banho + tosa</h3><p>Tosa higiÃªnica ou na tesoura, por raÃ§a.</p><ul><li>Tudo do banho</li><li>Tosa da raÃ§a</li><li>HidrataÃ§Ã£o +R$30</li></ul><div class="pr"><b>R$89</b><a href="https://wa.me/5511930729435?text=Quero%20banho%20tosa%20R89%20(demo)">Agendar</a></div></div>
+<div class="plan reveal"><h3>Pacote mensal</h3><p>4 banhos no mÃªs, horÃ¡rio fixo reservado.</p><ul><li>Prioridade na agenda</li><li>Taxi Dog incluso</li><li>10% off em raÃ§Ã£o</li></ul><div class="pr"><b>R$129</b><a href="https://wa.me/5511930729435?text=Quero%20pacote%20mensal%20(demo)">Agendar</a></div></div>
+</div>
+<div class="serv">
+<div class="svc reveal"><img src="https://picsum.photos/seed/poodle-trim/700/440" alt="Tosa" loading="lazy"><div class="pad"><h3>Tosa da raÃ§a</h3><p>Shih-tzu, Poodle, Spitz, York. PadrÃ£o da raÃ§a ou bebÃª.</p></div></div>
+<div class="svc reveal"><img src="https://picsum.photos/seed/cat-bath-care/700/440" alt="Banho em gatos" loading="lazy"><div class="pad"><h3>Banho em gatos</h3><p>Ambiente separado, sem cachorro por perto. Sem estresse.</p></div></div>
+<div class="svc reveal"><img src="https://picsum.photos/seed/dog-taxi-van/700/440" alt="Taxi Dog" loading="lazy"><div class="pad"><h3>Taxi Dog</h3><p>Buscamos e devolvemos no Centro, Boa Vista e Belval.</p></div></div>
+</div>
+</section>
+
+<section class="sec band reveal" style="padding:40px 32px">
+<div><h2>Como funciona o Taxi Dog.</h2><p>VocÃª nÃ£o sai de casa. A gente busca, cuida e devolve cheiroso.</p></div>
+<div class="taxi"><div class="tx"><b>01</b><span>Chama no Whats e escolhe o horÃ¡rio. Confirmamos em minutos.</span></div><div class="tx"><b>02</b><span>Buscamos seu pet com caixa segura e mandamos foto na chegada.</span></div><div class="tx"><b>03</b><span>Banho + tosa com foto do antes/depois. Devolvemos em casa.</span></div><div class="tx"><b>04</b><span>VocÃª avalia e jÃ¡ deixa o prÃ³ximo agendado.</span></div></div>
+</section>
+
+<section class="sec">
+<h2>Donos da regiÃ£o contam.</h2>
+<div class="quotes">
+<div class="q reveal"><div class="st">âââââ</div><p>âMeu shih-tzu voltou cheiroso e calmo. Mandaram foto de cada etapa.â</p><footer><b>Paula</b> Â· Vila Boa Vista Â· tutora do Thor</footer></div>
+<div class="q reveal"><div class="st">âââââ</div><p>âBuscam e devolvem no horÃ¡rio. Melhor coisa pra quem trabalha o dia todo.â</p><footer><b>Rafael</b> Â· Centro Â· tutor da Mel</footer></div>
+<div class="q reveal"><div class="st">âââââ</div><p>âMinha gata Ã© arisca e mesmo assim deu certo. Ambiente separado ajuda muito.â</p><footer><b>Juliana</b> Â· Camargos Â· tutora da Mia</footer></div>
+</div>
+<div class="faq">
+<details><summary>Buscam em quais bairros?</summary><p>Centro, Jardim dos Camargos, Vila Boa Vista, Belval e arredores. Chama no Whats que confirmamos sua rua.</p></details>
+<details><summary>Usam qual produto?</summary><p>Shampoo premium por tipo de pelo, inclusive hipoalergÃªnico. Avise alergias no agendamento.</p></details>
+<details><summary>E se meu pet for agitado?</summary><p>Trabalhamos com tempo extra e sem contenÃ§Ã£o forÃ§ada. Se nÃ£o for seguro, avisamos antes â sem custo.</p></details>
+</div>
+<div class="visit">
+<div><h2>Vaga de hoje ainda dÃ¡ tempo.</h2><p>SegâSÃ¡b 9hâ19h Â· Jd Camargos, Barueri Â· responde em minutos</p></div>
+<a class="btn btn-p" href="https://wa.me/5511930729435?text=Tem%20vaga%20hoje%3F%20(demo)">Chamar no WhatsApp <span class="arr">â</span></a>
+</div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· Feito para pet shops de Barueri Â· <a href="/portfolio/" style="color:var(--acc-d);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20agendar%20(demo)">Agendar</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.shot').classList.add('in');})();</script>
+</body></html>
+

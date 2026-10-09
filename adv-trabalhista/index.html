@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Andrade Advocacia â Trabalhista em Barueri | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para advogado trabalhista em Barueri: anÃ¡lise gratuita do seu caso no WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0B0E1A;--bg2:#11162A;--card:#141A33;--line:rgba(255,255,255,.12);--txt:#EEF1FB;--mut:#9AA4C4;--acc:#E9B44C;--acc2:#12D68A;--r:20px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Sora',sans-serif;letter-spacing:-.02em;line-height:1.1}
+.wrap{max-width:1120px;margin:auto;padding:0 22px}
+.demo{background:#000;color:var(--acc);font-size:12.5px;text-align:center;padding:10px 14px}.demo a{color:#fff;font-weight:700}
+.nav{position:sticky;top:0;z-index:30;background:rgba(11,14,26,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1120px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.logo{font-family:'Sora';font-weight:800;font-size:16px}.logo em{color:var(--acc);font-style:normal}.logo small{display:block;font-family:'Plus Jakarta Sans';font-size:10px;color:var(--mut);font-weight:600;letter-spacing:.14em}
+.nav-cta{background:var(--acc2);color:#03251A;text-decoration:none;font-weight:700;font-size:13.5px;border-radius:999px;padding:11px 20px;white-space:nowrap;transition:transform .35s var(--ease)}
+.nav-cta:hover{transform:translateY(-1px)}
+.hero{padding:60px 0 40px;background:radial-gradient(760px 440px at 85% 0%,rgba(233,180,76,.16),transparent 60%),var(--bg)}
+.hero-grid{display:grid;gap:36px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#0B0E1A;background:var(--acc);border-radius:999px;padding:7px 14px}
+.eyebrow i{width:7px;height:7px;border-radius:50%;background:#0B0E1A;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.hero h1{font-size:clamp(34px,6vw,62px);margin:18px 0 14px}
+.hero h1 .u{color:var(--acc)}
+.hero .sub{color:var(--mut);font-size:17px;max-width:33rem}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 28px;font-weight:700;font-size:15px;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:var(--acc2);color:#03251A}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(18,214,138,.35)}
+.btn-p:active{transform:scale(.98)}
+.btn-g{border:1px solid rgba(255,255,255,.28);color:#fff}.btn-g:hover{border-color:#fff;transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;font-size:13px;color:var(--mut)}
+.trust b{display:block;font-family:'Sora';font-size:18px;color:#fff}
+.leadbox{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:0 24px 60px rgba(0,0,0,.4)}
+.leadbox h3{font-size:22px}.leadbox p{font-size:14px;color:var(--mut);margin:8px 0 18px}
+.leadbox .row{display:grid;gap:10px;margin-bottom:16px}
+.leadbox .fld{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:12px;padding:13px 16px;font-size:14px;color:var(--mut)}
+.leadbox .btn-p{justify-content:center;width:100%}
+.leadbox small{display:block;text-align:center;color:var(--mut);font-size:12px;margin-top:10px}
+.sec{padding:68px 0}
+.sec h2{font-size:clamp(27px,4.2vw,42px);margin:10px 0 8px}
+.lede{color:var(--mut);max-width:38rem}
+.check{display:grid;gap:12px;margin-top:28px}
+.ci{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;display:flex;gap:14px;align-items:flex-start}
+.ci .x{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:rgba(233,180,76,.15);color:var(--acc);font-weight:800;display:flex;align-items:center;justify-content:center}
+.ci p{font-size:15px}.ci p b{color:var(--acc)}
+.nums{background:linear-gradient(120deg,#E9B44C,#8A5E14);border-radius:24px;padding:36px 30px;display:grid;gap:20px;color:#fff;margin-top:8px}
+.nums h2{color:#fff}
+.nrow{display:grid;gap:12px}
+.n{background:rgba(0,0,0,.25);border-radius:16px;padding:20px}
+.n b{font-family:'Sora';font-size:32px;display:block}.n span{font-size:13.5px;color:#F5E4C0}
+.areas{display:grid;gap:14px;margin-top:28px}
+.area{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .4s var(--ease),border-color .4s}
+.area:hover{transform:translateY(-3px);border-color:rgba(233,180,76,.5)}
+.area h3{font-size:18px;margin-bottom:6px}.area p{font-size:14px;color:var(--mut)}
+.steps{display:grid;gap:12px;margin-top:28px}
+.st{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.st .n{font-family:'Sora';color:var(--acc);font-weight:800;letter-spacing:.16em;font-size:12px}
+.st h3{margin:6px 0 4px;font-size:18px}.st p{font-size:14px;color:var(--mut)}
+.quotes{display:grid;gap:14px;margin-top:26px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
+.q .st2{color:var(--acc);letter-spacing:2px}.q p{font-size:15px;margin-top:6px}.q footer{margin-top:12px;font-size:13px;color:var(--mut)}.q footer b{color:#fff}
+.faq{margin-top:24px;display:grid;gap:10px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.faq summary{font-weight:700;cursor:pointer;font-size:15px}
+.faq p{font-size:14px;color:var(--mut);margin-top:8px}
+.final{background:var(--acc2);color:#03251A;border-radius:24px;padding:40px 30px;text-align:center;margin-top:30px}
+.final h2{color:#03251A}.final p{max-width:32rem;margin:10px auto 0;font-size:15px}
+.final .btn-p{background:#03251A;color:#fff;margin-top:20px}
+footer{padding:26px 0 96px;text-align:center;font-size:12px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--acc2);color:#03251A;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;box-shadow:0 14px 34px rgba(0,0,0,.45);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.05fr .95fr}.check{grid-template-columns:1fr 1fr}.nrow{grid-template-columns:repeat(3,1fr)}.areas{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(4,1fr)}.quotes{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â adaptamos para seu escritÃ³rio em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="logo">ANDRADE <em>ADVOCACIA</em><small>OAB/SP Â· BARUERI</small></span><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20anÃ¡lise%20gratuita%20do%20meu%20caso%20(demo)">AnÃ¡lise gratuita â</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<span class="eyebrow"><i></i> Trabalhista Â· Barueri e regiÃ£o</span>
+<h1>Foi demitido e <span class="u">nÃ£o recebeu tudo?</span></h1>
+<p class="sub">A empresa tem 10 dias para pagar sua rescisÃ£o. Passou disso, ela te deve â com multa. Descubra em 5 minutos no WhatsApp.</p>
+<div class="ctas"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20anÃ¡lise%20gratuita%20(demo)">AnÃ¡lise gratuita <span class="arr">â</span></a><a class="btn btn-g" href="#direitos">Ver meus direitos</a></div>
+<div class="trust"><div><b>Sigilo total</b>conversa privada</div><div><b>Sem custo inicial</b>sÃ³ paga se ganhar*</div><div><b>Barueri</b>atendimento local</div></div>
+</div>
+<div class="leadbox reveal"><h3>Descubra em 5 minutos.</h3><p>Responda 3 perguntas e receba a anÃ¡lise do seu caso ainda hoje.</p><div class="row"><div class="fld">1 Â· Como foi sua saÃ­da? (demissÃ£o, justa causa, pedido)</div><div class="fld">2 Â· Recebeu rescisÃ£o e FGTS completos?</div><div class="fld">3 Â· Fazia horas extras sem receber?</div></div><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20responder%20as%203%20perguntas%20(demo)">Responder no WhatsApp <span class="arr">â</span></a><small>* HonorÃ¡rios de Ãªxito: percentual apenas sobre o valor recebido.</small></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="direitos">
+<h2>A empresa pode estar te devendo seâ¦</h2>
+<p class="lede">Marque mentalmente. Se 1 item for verdade, fale com um advogado antes de assinar qualquer coisa.</p>
+<div class="check">
+<div class="ci reveal"><span class="x">!</span><p>VocÃª <b>nÃ£o recebeu a rescisÃ£o em atÃ© 10 dias</b> apÃ³s a saÃ­da.</p></div>
+<div class="ci reveal"><span class="x">!</span><p>Fazia <b>horas extras, banco de horas ou dobras</b> sem pagamento correto.</p></div>
+<div class="ci reveal"><span class="x">!</span><p>Era registrado com <b>salÃ¡rio menor que o real</b> (âpor foraâ).</p></div>
+<div class="ci reveal"><span class="x">!</span><p>Sofreu <b>pressÃ£o, humilhaÃ§Ã£o ou assÃ©dio</b> no trabalho.</p></div>
+<div class="ci reveal"><span class="x">!</span><p>Foi mandado embora <b>grÃ¡vida, doente ou no estabilidade</b>.</p></div>
+<div class="ci reveal"><span class="x">!</span><p>Trabalhou <b>sem registro</b> ou como âPJâ fazendo funÃ§Ã£o de empregado.</p></div>
+</div>
+</section>
+
+<section class="sec nums reveal" style="padding:36px 30px">
+<div><h2>Resultado de quem nÃ£o deixou pra lÃ¡.</h2></div>
+<div class="nrow"><div class="n"><b>+900</b><span>casos trabalhistas analisados</span></div><div class="n"><b>R$6,2 mi</b><span>recuperados para clientes*</span></div><div class="n"><b>14 anos</b><span>de atuaÃ§Ã£o em Barueri</span></div></div>
+</section>
+
+<section class="sec">
+<h2>O que cobramos pra vocÃª.</h2>
+<div class="areas">
+<div class="area reveal"><h3>Verbas rescisÃ³rias</h3><p>Saldo, aviso, fÃ©rias + 1/3, 13Âº, FGTS + 40% e multa por atraso.</p></div>
+<div class="area reveal"><h3>Horas extras</h3><p>Extras, adicional noturno, intervalos e banco de horas irregular.</p></div>
+<div class="area reveal"><h3>Sem registro / âPJâ</h3><p>VÃ­nculo reconhecido com todos os direitos retroativos.</p></div>
+<div class="area reveal"><h3>Dano moral</h3><p>AssÃ©dio, humilhaÃ§Ã£o, acidente e doenÃ§a do trabalho.</p></div>
+</div>
+<div class="steps">
+<div class="st reveal"><span class="n">01</span><h3>Chama no Whats</h3><p>Conta sua saÃ­da em Ã¡udio ou texto. Sigilo garantido.</p></div>
+<div class="st reveal"><span class="n">02</span><h3>AnÃ¡lise gratuita</h3><p>Dizemos se hÃ¡ valores a recuperar e quanto, sem juridiquÃªs.</p></div>
+<div class="st reveal"><span class="n">03</span><h3>Acordo ou aÃ§Ã£o</h3><p>Tentamos acordo rÃ¡pido; se nÃ£o der, aÃ§Ã£o com tudo documentado.</p></div>
+<div class="st reveal"><span class="n">04</span><h3>VocÃª recebe</h3><p>Acompanha cada etapa pelo Whats atÃ© o valor cair.</p></div>
+</div>
+<div class="quotes">
+<div class="q reveal"><div class="st2">âââââ</div><p>âSaÃ­ sem nada e recuperei 3 meses de salÃ¡rio. Nem precisei ir ao fÃ³rum.â</p><footer><b>Roberto</b> Â· Jardim Belval</footer></div>
+<div class="q reveal"><div class="st2">âââââ</div><p>âFazia hora extra todo dia sem receber. Recebi tudo com juros.â</p><footer><b>Fernanda</b> Â· Centro</footer></div>
+<div class="q reveal"><div class="st2">âââââ</div><p>âExplicaram tudo simples, sem enrolar. Recomendo demais.â</p><footer><b>Paulo</b> Â· TamborÃ©</footer></div>
+</div>
+<div class="faq">
+<details><summary>Quanto tempo tenho para reclamar?</summary><p>AtÃ© 2 anos apÃ³s a saÃ­da, cobrando os Ãºltimos 5 anos trabalhados. NÃ£o deixe o prazo passar.</p></details>
+<details><summary>Preciso pagar para comeÃ§ar?</summary><p>NÃ£o. A anÃ¡lise Ã© gratuita e, nos casos aceitos, os honorÃ¡rios saem do valor recebido (Ãªxito).</p></details>
+<details><summary>JÃ¡ assinei a rescisÃ£o. Ainda posso reclamar?</summary><p>Na maioria das vezes, sim. Assinatura nÃ£o apaga direitos pagos a menos.</p></details>
+<details><summary>Meu caso Ã© sigiloso?</summary><p>Totalmente. Sigilo profissional garantido por lei (OAB).</p></details>
+</div>
+<div class="final reveal"><h2>NÃ£o assine nada antes de falar com a gente.</h2><p>Uma conversa de 5 minutos pode valer meses de salÃ¡rio. AnÃ¡lise gratuita, hoje.</p><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20anÃ¡lise%20gratuita%20(demo)">Chamar no WhatsApp <span class="arr">â</span></a></div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· *Valores e resultados ilustrativos Â· Publicidade conforme Provimento OAB 205/2021 Â· <a href="/portfolio/" style="color:var(--acc);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20anÃ¡lise%20gratuita%20(demo)">AnÃ¡lise gratuita</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.leadbox').classList.add('in');})();</script>
+</body></html>
+

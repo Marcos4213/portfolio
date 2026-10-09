@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumine Odonto â Lentes e EstÃ©tica do Sorriso em Barueri | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para odontologia estÃ©tica em Barueri: lentes de contato dental, clareamento e harmonizaÃ§Ã£o.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F0D0B;--bg2:#171310;--card:#1A1411;--line:rgba(233,196,138,.18);--txt:#F5ECDD;--mut:#B7A488;--acc:#E9C48A;--green:#25D366;--r:22px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;line-height:1.08}
+.wrap{max-width:1180px;margin:auto;padding:0 26px}
+.demo{background:#000;color:var(--acc);font-size:12.5px;text-align:center;padding:10px 14px}.demo a{color:#fff;font-weight:700}
+.nav{position:fixed;top:16px;left:0;right:0;z-index:40;pointer-events:none}
+.nav-in{pointer-events:auto;width:max-content;max-width:calc(100vw - 28px);margin:auto;display:flex;align-items:center;gap:20px;background:rgba(18,14,11,.78);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:999px;padding:10px 10px 10px 22px}
+.brand{font-family:'Fraunces';font-size:17px;white-space:nowrap}.brand em{color:var(--acc);font-style:italic}
+.nav-cta{background:var(--acc);color:#241A08;font-weight:700;font-size:13px;text-decoration:none;border-radius:999px;padding:10px 18px;transition:transform .35s var(--ease)}
+.nav-cta:hover{transform:translateY(-1px)}
+.hero{min-height:100dvh;display:grid;align-items:center;padding:130px 0 70px;background:radial-gradient(800px 480px at 88% 8%,rgba(233,196,138,.15),transparent 60%),var(--bg)}
+.hero-grid{display:grid;gap:48px;align-items:center}
+.hero h1{font-size:clamp(44px,7.2vw,82px)}
+.hero h1 em{font-style:italic;color:var(--acc)}
+.hero .sub{color:var(--mut);font-size:18px;max-width:30rem;margin-top:20px}
+.rule{width:64px;height:2px;background:var(--acc);margin:26px 0}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:16px 30px;font-weight:700;font-size:15px;text-decoration:none;font-family:'Plus Jakarta Sans';transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:var(--green);color:#04331C}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(37,211,102,.35)}
+.btn-p:active{transform:scale(.98)}
+.btn-g{border:1px solid rgba(245,236,221,.3);color:var(--txt)}.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.creds{display:flex;gap:28px;flex-wrap:wrap;margin-top:32px;font-size:13px;color:var(--mut)}
+.creds b{display:block;font-family:'Fraunces';font-size:24px;color:#fff;font-weight:500}
+.shot{border-radius:26px;padding:12px;background:rgba(233,196,138,.06);border:1px solid var(--line)}
+.shot img{width:100%;height:480px;object-fit:cover;border-radius:16px}
+.shot .cap{display:flex;justify-content:space-between;padding:14px 8px 4px;font-size:13px;color:var(--mut)}
+.pill{background:var(--acc);color:#241A08;font-weight:700;font-size:11px;border-radius:999px;padding:4px 10px;font-family:'Plus Jakarta Sans'}
+.sec{padding:88px 0}
+.sec h2{font-size:clamp(32px,4.6vw,52px);font-weight:500;max-width:22ch}
+.sec .lede{color:var(--mut);max-width:36rem;margin-top:12px}
+.treats{display:grid;gap:14px;margin-top:36px}
+.tr{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:transform .5s var(--ease),border-color .5s}
+.tr:hover{transform:translateY(-4px);border-color:rgba(233,196,138,.5)}
+.tr img{width:100%;height:220px;object-fit:cover}
+.tr .pad{padding:24px}.tr h3{font-size:24px}.tr p{font-size:14.5px;color:var(--mut);margin:8px 0 14px}
+.tr .pr{display:flex;justify-content:space-between;align-items:center}
+.tr .pr b{font-family:'Plus Jakarta Sans';font-size:19px;color:var(--acc)}
+.tr .pr a{background:var(--acc);color:#241A08;font-weight:700;font-size:13.5px;text-decoration:none;border-radius:999px;padding:11px 20px;font-family:'Plus Jakarta Sans'}
+.band{margin-top:64px;background:var(--bg2);border:1px solid var(--line);border-radius:26px;padding:44px 36px;display:grid;gap:24px}
+.band .big{font-family:'Fraunces';font-style:italic;font-size:clamp(24px,3.4vw,38px);line-height:1.35}
+.band .who{color:var(--mut);font-size:14px;margin-top:12px}
+.band .nums{display:grid;gap:12px}
+.band .n2{border-left:2px solid var(--acc);padding-left:18px}
+.band .n2 b{font-family:'Fraunces';font-size:34px;display:block;font-weight:500}
+.band .n2 span{font-size:13.5px;color:var(--mut)}
+.steps{display:grid;gap:14px;margin-top:36px}
+.st{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.st .n{color:var(--acc);font-weight:800;letter-spacing:.18em;font-size:12px}
+.st h3{margin:8px 0 6px;font-size:22px}.st p{font-size:14.5px;color:var(--mut)}
+.faq{margin-top:28px;display:grid;gap:10px;max-width:820px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.faq summary{font-weight:700;cursor:pointer;font-size:16px}
+.faq p{font-size:15px;color:var(--mut);margin-top:8px}
+.final{margin-top:64px;background:linear-gradient(140deg,#E9C48A,#9A7434);border-radius:26px;padding:54px 36px;text-align:center;color:#241A08}
+.final h2{color:#241A08}.final p{max-width:34rem;margin:12px auto 0}
+.final .btn-p{background:#241A08;color:#F5ECDD;margin-top:22px}
+footer{padding:28px 0 100px;text-align:center;font-size:12.5px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--green);color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;font-family:'Plus Jakarta Sans';box-shadow:0 14px 34px rgba(0,0,0,.5);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:960px){.hero-grid{grid-template-columns:1.1fr .9fr}.treats{grid-template-columns:repeat(3,1fr)}.band{grid-template-columns:1.3fr 1fr;align-items:center}.steps{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:959px){.shot img{height:340px}.sec{padding:62px 0}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â adaptamos para sua clÃ­nica em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="brand">Lumine <em>Odonto</em></span><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20avaliaÃ§Ã£o%20estÃ©tica%20(demo)">AvaliaÃ§Ã£o estÃ©tica</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<h1>O sorriso que <em>veste bem.</em></h1>
+<p class="sub">Lentes de contato dental, clareamento premium e harmonizaÃ§Ã£o â com simulaÃ§Ã£o do resultado antes de comeÃ§ar.</p>
+<div class="rule"></div>
+<div class="hero-cta"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20avaliaÃ§Ã£o%20estÃ©tica%20(demo)">Agendar avaliaÃ§Ã£o <span class="arr">â</span></a><a class="btn btn-g" href="#tratamentos">Ver tratamentos</a></div>
+<div class="creds"><div><b>+2.400</b>sorrisos transformados</div><div><b>12x</b>sem juros</div><div><b>Alphaville</b>e Centro</div></div>
+</div>
+<div class="shot reveal"><img src="https://picsum.photos/seed/perfect-smile-closeup/840/960" alt="Sorriso estÃ©tico" fetchpriority="high"><div class="cap"><span>Lentes Â· 10 elementos superiores</span><span class="pill">antes / depois</span></div></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="tratamentos">
+<h2>Assinatura de um sorriso caro â sem parecer artificial.</h2>
+<p class="lede">Planejamento digital: vocÃª vÃª a simulaÃ§Ã£o do seu sorriso antes de aprovar.</p>
+<div class="treats">
+<div class="tr reveal"><img src="https://picsum.photos/seed/dental-veneers-shade/700/460" alt="Lentes de contato dental" loading="lazy"><div class="pad"><h3>Lentes de contato dental</h3><p>CorreÃ§Ã£o de cor, forma e espaÃ§amento com desgaste mÃ­nimo.</p><div class="pr"><b>12x R$490</b><a href="https://wa.me/5511930729435?text=Quero%20lentes%20(demo)">Quero â</a></div></div></div>
+<div class="tr reveal"><img src="https://picsum.photos/seed/premium-whitening-glow/700/460" alt="Clareamento premium" loading="lazy"><div class="pad"><h3>Clareamento premium</h3><p>AtÃ© 8 tons com proteÃ§Ã£o do esmalte e zero sensibilidade.</p><div class="pr"><b>R$599</b><a href="https://wa.me/5511930729435?text=Quero%20clareamento%20premium%20(demo)">Quero â</a></div></div></div>
+<div class="tr reveal"><img src="https://picsum.photos/seed/facial-harmony-balance/700/460" alt="HarmonizaÃ§Ã£o" loading="lazy"><div class="pad"><h3>HarmonizaÃ§Ã£o facial</h3><p>Botox, preenchimento e bioestimuladores com naturalidade.</p><div class="pr"><b>avaliaÃ§Ã£o grÃ¡tis</b><a href="https://wa.me/5511930729435?text=Quero%20harmonizaÃ§Ã£o%20(demo)">Quero â</a></div></div></div>
+</div>
+<div class="band reveal">
+<div><p class="big">âSaÃ­ da avaliaÃ§Ã£o com a simulaÃ§Ã£o do meu sorriso na tela. Quando ficou pronto, era igualzinho.â</p><p class="who"><b style="color:#fff">Camila R.</b> Â· Alphaville â lentes superiores e inferiores</p></div>
+<div class="nums"><div class="n2"><b>4.9â</b><span>410 avaliaÃ§Ãµes no Google</span></div><div class="n2"><b>7 dias</b><span>prazo mÃ©dio das lentes</span></div></div>
+</div>
+<div class="steps">
+<div class="st reveal"><span class="n">I</span><h3>Escaneamento</h3><p>Escaneamos seu sorriso em 3D, sem moldagem desconfortÃ¡vel.</p></div>
+<div class="st reveal"><span class="n">II</span><h3>SimulaÃ§Ã£o</h3><p>VocÃª aprova o desenho do sorriso antes de qualquer desgaste.</p></div>
+<div class="st reveal"><span class="n">III</span><h3>Entrega</h3><p>Prova, ajustes finos e polimento. Garantia por escrito.</p></div>
+</div>
+<div class="faq">
+<details><summary>As lentes desgastam muito o dente?</summary><p>Na tÃ©cnica atual, o desgaste Ã© mÃ­nimo (0,3â0,5 mm) e em muitos casos nem hÃ¡ desgaste. A avaliaÃ§Ã£o define seu caso.</p></details>
+<details><summary>Quanto tempo dura?</summary><p>Com manutenÃ§Ã£o, de 10 a 15 anos. Acompanhamos vocÃª com revisÃµes semestrais.</p></details>
+<details><summary>Parcela no cartÃ£o?</summary><p>Sim, em atÃ© 12x sem juros, alÃ©m de Pix com condiÃ§Ã£o especial.</p></details>
+</div>
+<div class="final reveal"><h2>Veja seu novo sorriso antes de decidir.</h2><p>Agende a avaliaÃ§Ã£o estÃ©tica e saia com a simulaÃ§Ã£o pronta.</p><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20simulaÃ§Ã£o%20do%20sorriso%20(demo)">Agendar avaliaÃ§Ã£o <span class="arr">â</span></a></div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· Valores ilustrativos Â· <a href="/portfolio/" style="color:var(--acc);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20avaliaÃ§Ã£o%20(demo)">Agendar</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.shot').classList.add('in');})();</script>
+</body></html>
+

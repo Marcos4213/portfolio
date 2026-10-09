@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sorriso da FamÃ­lia â Dentista AcessÃ­vel em Barueri | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para clÃ­nica popular em Barueri: aparelho, limpeza e tratamento para a famÃ­lia com preÃ§o que cabe no bolso.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF4FF;--card:#FFFFFF;--line:#D5E1F5;--ink:#0E1E3D;--mut:#54678A;--acc:#F4571D;--acc-d:#C93F0E;--blue:#1D4FD7;--green:#25D366;--r:20px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Sora',sans-serif;letter-spacing:-.02em;line-height:1.12}
+.wrap{max-width:1120px;margin:auto;padding:0 22px}
+.demo{background:#0E1E3D;color:#FFD9A8;font-size:12.5px;text-align:center;padding:10px 14px}.demo a{color:#fff;font-weight:700}
+.nav{position:sticky;top:0;z-index:30;background:rgba(238,244,255,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1120px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Sora';font-weight:800;font-size:17px}.logo em{color:var(--blue);font-style:normal}
+.nav-cta{background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:13.5px;border-radius:999px;padding:11px 20px;transition:transform .35s var(--ease),background .35s}
+.nav-cta:hover{background:var(--blue);transform:translateY(-1px)}
+.hero{padding:54px 0 24px}
+.hero-grid{display:grid;gap:36px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--blue)}
+.free{background:var(--acc);color:#fff;border-radius:12px;padding:14px 18px;font-size:14.5px;font-weight:600;margin-top:18px}
+.hero h1{font-size:clamp(34px,6vw,60px);margin:16px 0 12px}
+.hero h1 .u{color:var(--blue)}
+.hero .sub{color:var(--mut);font-size:17px;max-width:33rem}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 28px;font-weight:700;font-size:15px;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:var(--green);color:#04331C}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(37,211,102,.4)}
+.btn-p:active{transform:scale(.98)}
+.btn-s{background:var(--ink);color:#fff}.btn-s:hover{background:var(--blue);transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;font-size:13.5px;color:var(--mut)}
+.meta b{display:block;font-family:'Sora';font-size:19px;color:var(--ink)}
+.shot{border-radius:24px;padding:10px;background:#fff;border:1px solid var(--line);box-shadow:0 24px 60px rgba(14,30,61,.12)}
+.shot img{width:100%;height:360px;object-fit:cover;border-radius:16px}
+.shot .cap{display:flex;justify-content:space-between;padding:12px 8px 4px;font-size:13px;color:var(--mut)}
+.pill{background:var(--blue);color:#fff;font-weight:700;font-size:11px;border-radius:999px;padding:4px 10px}
+.sec{padding:66px 0}
+.sec h2{font-size:clamp(27px,4.2vw,42px);margin:10px 0 8px}
+.lede{color:var(--mut);max-width:38rem}
+.plans{display:grid;gap:14px;margin-top:28px}
+.plan{background:var(--card);border:2px solid var(--line);border-radius:var(--r);padding:26px;position:relative;transition:transform .5s var(--ease),border-color .5s,box-shadow .5s}
+.plan:hover{transform:translateY(-4px);box-shadow:0 20px 44px rgba(14,30,61,.12)}
+.plan.hot{border-color:var(--blue)}
+.plan .flag{position:absolute;top:-13px;left:22px;background:var(--blue);color:#fff;font-size:11px;font-weight:800;letter-spacing:.08em;border-radius:999px;padding:5px 12px}
+.plan h3{font-size:19px}.plan p{font-size:14px;color:var(--mut);margin:6px 0 4px}
+.plan ul{list-style:none;margin:14px 0;display:grid;gap:8px;font-size:14px}
+.plan ul li:before{content:"â ";color:var(--blue);font-weight:700}
+.plan .pr{display:flex;justify-content:space-between;align-items:center}
+.plan .pr b{font-family:'Sora';font-size:28px;color:var(--blue)}
+.plan .pr a{background:var(--ink);color:#fff;font-weight:700;font-size:14px;text-decoration:none;border-radius:999px;padding:12px 20px;transition:background .3s}
+.plan .pr a:hover{background:var(--blue)}
+.fam{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;margin-top:24px;display:grid;gap:18px}
+.fam .row{display:grid;gap:12px}
+.fi{background:var(--bg);border-radius:16px;padding:20px}
+.fi b{font-family:'Sora';font-size:26px;color:var(--blue);display:block}.fi span{font-size:13.5px;color:var(--mut)}
+.quotes{display:grid;gap:14px;margin-top:26px}
+.q{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}
+.q .st{color:var(--acc);letter-spacing:2px}.q p{font-size:15.5px;margin-top:6px}.q footer{margin-top:12px;font-size:13px;color:var(--mut)}.q footer b{color:var(--ink)}
+.faq{margin-top:24px;display:grid;gap:10px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.faq summary{font-weight:700;cursor:pointer;font-size:15px}
+.faq p{font-size:14px;color:var(--mut);margin-top:8px}
+.visit{background:var(--ink);color:#fff;border-radius:22px;padding:32px;margin-top:26px;display:grid;gap:16px;text-align:center}
+.visit p{color:#A9B8D8;font-size:14.5px}
+.visit .btn-p{justify-content:center}
+footer{padding:26px 0 96px;text-align:center;font-size:12.5px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--green);color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;box-shadow:0 14px 34px rgba(0,0,0,.3);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.02fr .98fr}.plans{grid-template-columns:repeat(3,1fr)}.fam{grid-template-columns:1fr 1.4fr;align-items:center}.fam .row{grid-template-columns:repeat(3,1fr)}.quotes{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â adaptamos para sua clÃ­nica em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="logo">Sorriso da <em>FamÃ­lia</em></span><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20primeira%20avaliaÃ§Ã£o%20(demo)">1Âª avaliaÃ§Ã£o grÃ¡tis â</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<span class="badge">â Popular Â· Centro e Belval</span>
+<h1>Dente tratado <span class="u">sem pesar</span> no bolso.</h1>
+<p class="sub">Aparelho, limpeza e restauraÃ§Ã£o para a famÃ­lia toda, com parcela a partir de R$89 e primeira avaliaÃ§Ã£o gratuita.</p>
+<div class="free">ð Essa semana: primeira avaliaÃ§Ã£o + limpeza com 20% OFF para novos pacientes.</div>
+<div class="ctas"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%201Âª%20avaliaÃ§Ã£o%20grÃ¡tis%20(demo)">1Âª avaliaÃ§Ã£o grÃ¡tis <span class="arr">â</span></a><a class="btn btn-s" href="#planos">Ver preÃ§os</a></div>
+<div class="meta"><div><b>12x</b>no cartÃ£o</div><div><b>FamÃ­lia</b>crianÃ§a e adulto</div><div><b>Centro</b>perto do calÃ§adÃ£o</div></div>
+</div>
+<div class="shot reveal"><img src="https://picsum.photos/seed/family-dental-visit/880/720" alt="FamÃ­lia no dentista" fetchpriority="high"><div class="cap"><span>Atendemos a famÃ­lia toda junta</span><span class="pill">sem fila</span></div></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="planos">
+<h2>PreÃ§o que cabe no mÃªs.</h2>
+<p class="lede">Sem letra miÃºda: valor fechado antes de comeÃ§ar, parcela fixa no cartÃ£o.</p>
+<div class="plans">
+<div class="plan reveal"><h3>Limpeza</h3><p>Profilaxia completa + aplicaÃ§Ã£o de flÃºor.</p><ul><li>Remove tÃ¡rtaro e manchas</li><li>Previne cÃ¡rie e gengivite</li><li>Dura 40 minutos</li></ul><div class="pr"><b>R$99</b><a href="https://wa.me/5511930729435?text=Quero%20limpeza%20R99%20(demo)">Agendar</a></div></div>
+<div class="plan hot reveal"><span class="flag">MAIS PROCURADO</span><h3>Aparelho metÃ¡lico</h3><p>ManutenÃ§Ã£o mensal inclusa no Centro.</p><ul><li>ColocaÃ§Ã£o + documentaÃ§Ã£o</li><li>ManutenÃ§Ã£o todo mÃªs</li><li>Parcela fixa, sem reajuste</li></ul><div class="pr"><b>12x R$89</b><a href="https://wa.me/5511930729435?text=Quero%20aparelho%20(demo)">Agendar</a></div></div>
+<div class="plan reveal"><h3>RestauraÃ§Ã£o</h3><p>CÃ¡rie tratada em 1 sessÃ£o, cor do dente.</p><ul><li>Anestesia sem dor</li><li>Resina da cor do dente</li><li>Garantia por escrito</li></ul><div class="pr"><b>R$129</b><a href="https://wa.me/5511930729435?text=Quero%20restauraÃ§Ã£o%20(demo)">Agendar</a></div></div>
+</div>
+<div class="fam reveal">
+<div><h2 style="font-size:24px">Traga todo mundo junto.</h2><p style="color:var(--mut);font-size:14.5px;margin-top:6px">Agende 3 ou mais da famÃ­lia no mesmo dia e ganhe condiÃ§Ãµes especiais.</p></div>
+<div class="row"><div class="fi"><b>3+</b><span>pessoas no mesmo dia = desconto famÃ­lia</span></div><div class="fi"><b>Kids</b><span>crianÃ§as com atendimento lÃºdico</span></div><div class="fi"><b>Idosos</b><span>prÃ³tese e cuidado especial</span></div></div>
+</div>
+<div class="quotes">
+<div class="q reveal"><div class="st">âââââ</div><p>âColoquei aparelho eu e meu filho. Parcela coube certinho no mÃªs.â</p><footer><b>Rosana</b> Â· Jardim Belval</footer></div>
+<div class="q reveal"><div class="st">âââââ</div><p>âPreÃ§o que prometeram no Whats foi o que paguei. Sem pegadinha.â</p><footer><b>Marcos</b> Â· Centro</footer></div>
+<div class="q reveal"><div class="st">âââââ</div><p>âMinha filha ia com medo e hoje pede pra voltar. Equipe paciente demais.â</p><footer><b>Ana</b> Â· Boa Vista</footer></div>
+</div>
+<div class="faq">
+<details><summary>A primeira avaliaÃ§Ã£o Ã© mesmo grÃ¡tis?</summary><p>Sim, nessa campanha. Inclui exame clÃ­nico e plano com preÃ§o fechado, sem compromisso.</p></details>
+<details><summary>VocÃªs atendem convÃªnio?</summary><p>Avaliamos os principais. Chama no Whats com o nome do seu plano que verificamos.</p></details>
+<details><summary>Posso parcelar tudo?</summary><p>Sim, em atÃ© 12x no cartÃ£o, alÃ©m de Pix com desconto.</p></details>
+</div>
+<div class="visit reveal">
+<div><h2 style="color:#fff;font-size:24px">Do lado do calÃ§adÃ£o.</h2><p>Rua Campos Sales Â· Centro, Barueri â SegâSÃ¡b 8hâ19h Â· <a href="https://www.google.com/maps/search/?api=1&query=dentista+Campos+Sales+Centro+Barueri" style="color:#fff;font-weight:700">ver no mapa</a></p></div>
+<a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20vaga%20essa%20semana%20(demo)">Quero vaga essa semana <span class="arr">â</span></a>
+</div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· Valores ilustrativos Â· <a href="/portfolio/" style="color:var(--blue);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20agendar%20(demo)">Agendar</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.shot').classList.add('in');})();</script>
+</body></html>
+

@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sorriso Centro â Dentista no Centro de Barueri | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para dentista no Centro de Barueri: agendar avaliaÃ§Ã£o no WhatsApp, serviÃ§os, avaliaÃ§Ãµes e como chegar.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4FAF7;--card:#fff;--line:#DCE9E3;--ink:#0B2E2A;--ink2:#0B3B36;--mut:#52706A;--acc:#0E9F6E;--acc-d:#0B7A55;--gold:#E9B44C;--r:22px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Sora',sans-serif;letter-spacing:-.02em;line-height:1.1}
+.wrap{max-width:1120px;margin:auto;padding:0 22px}
+.demo{background:#0B2E2A;color:#D8EFE7;font-size:12.5px;text-align:center;padding:10px 14px}
+.demo a{color:var(--gold);font-weight:700}
+.nav{position:sticky;top:0;z-index:30;background:rgba(244,250,247,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1120px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{font-family:'Sora';font-weight:800;font-size:17px}.logo em{color:var(--acc-d);font-style:normal}
+.nav-cta{background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:13.5px;border-radius:999px;padding:11px 20px;display:inline-flex;gap:8px;align-items:center;transition:transform .35s var(--ease),background .35s}
+.nav-cta:hover{background:var(--acc-d);transform:translateY(-1px)}
+.hero{padding:56px 0 30px}
+.hero-grid{display:grid;gap:36px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc-d)}
+.stars{color:var(--gold);letter-spacing:2px;font-size:14px}
+.hero h1{font-size:clamp(36px,6.4vw,64px);margin:16px 0 12px}
+.hero h1 .u{color:var(--acc-d)}
+.hero .sub{color:var(--mut);font-size:17px;max-width:33rem}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 26px;font-weight:700;font-size:15px;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:#25D366;color:#04331C}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(37,211,102,.4)}
+.btn-p:active{transform:scale(.98)}
+.btn-s{background:var(--ink);color:#fff}.btn-s:hover{background:var(--acc-d);transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:26px;font-size:13.5px;color:var(--mut)}
+.meta b{display:block;font-family:'Sora';font-size:19px;color:var(--ink)}
+.shot{border-radius:28px;padding:10px;background:#fff;border:1px solid var(--line);box-shadow:0 24px 60px rgba(11,46,42,.12)}
+.shot img{width:100%;height:360px;object-fit:cover;border-radius:18px}
+.shot .cap{display:flex;justify-content:space-between;padding:12px 8px 4px;font-size:13px;color:var(--mut)}
+.pill{background:var(--acc);color:#fff;font-weight:700;font-size:11px;border-radius:999px;padding:4px 10px}
+.sec{padding:72px 0}
+.sec h2{font-size:clamp(27px,4.2vw,42px);margin:10px 0 8px}
+.lede{color:var(--mut);max-width:38rem}
+.grid3{display:grid;gap:16px;margin-top:30px}
+.svc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:transform .5s var(--ease),box-shadow .5s}
+.svc:hover{transform:translateY(-4px);box-shadow:0 22px 48px rgba(11,46,42,.12)}
+.svc img{width:100%;height:190px;object-fit:cover}
+.svc .pad{padding:22px}.svc h3{font-size:19px;margin-bottom:6px}.svc p{font-size:14px;color:var(--mut)}
+.svc .pr{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.svc .pr b{font-family:'Sora';font-size:19px;color:var(--acc-d)}
+.svc .pr a{font-size:13.5px;font-weight:700;color:var(--ink);text-decoration:none;border-bottom:2px solid var(--acc)}
+.band{background:var(--ink);color:#E6F2ED;border-radius:26px;padding:40px 32px;display:grid;gap:26px;margin-top:8px}
+.band h2{color:#fff}
+.band .row{display:grid;gap:14px}
+.stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:20px}
+.stat b{font-family:'Sora';font-size:30px;color:var(--gold);display:block}.stat span{font-size:13.5px;color:#B9D4CC}
+.quotes{display:grid;gap:14px;margin-top:26px}
+.q{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}
+.q p{font-size:15.5px}.q footer{margin-top:12px;font-size:13px;color:var(--mut)}.q footer b{color:var(--ink)}
+.steps{display:grid;gap:14px;margin-top:28px}
+.st{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}
+.st .n{font-family:'Sora';color:var(--acc-d);font-weight:800;letter-spacing:.14em;font-size:12px}
+.st h3{margin:6px 0 4px;font-size:18px}.st p{font-size:14px;color:var(--mut)}
+.faq{margin-top:24px;display:grid;gap:10px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.faq summary{font-weight:700;cursor:pointer;font-size:15px}
+.faq p{font-size:14px;color:var(--mut);margin-top:8px}
+.visit{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;margin-top:26px;display:grid;gap:16px}
+.visit .btn-p{justify-content:center}
+footer{padding:26px 0 96px;text-align:center;font-size:12.5px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:#25D366;color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;box-shadow:0 14px 34px rgba(0,0,0,.3);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.02fr .98fr}.grid3{grid-template-columns:repeat(3,1fr)}.band{grid-template-columns:1fr 1.4fr;align-items:center}.band .row{grid-template-columns:repeat(3,1fr)}.quotes{grid-template-columns:repeat(3,1fr)}.steps{grid-template-columns:repeat(3,1fr)}.visit{grid-template-columns:1.2fr 1fr;align-items:center}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â trocamos logo, fotos e Whats da sua clÃ­nica em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="logo">Sorriso <em>Centro</em></span><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20agendar%20avaliaÃ§Ã£o%20(demo)">Agendar avaliaÃ§Ã£o â</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<span class="badge">â Centro de Barueri Â· 2 min da estaÃ§Ã£o</span>
+<div class="stars" style="margin-top:14px">âââââ <span style="color:var(--mut);letter-spacing:0">4.9 Â· 320 avaliaÃ§Ãµes</span></div>
+<h1>Voltar a sorrir <span class="u">sem medo</span> de dentista.</h1>
+<p class="sub">AvaliaÃ§Ã£o completa, limpeza e aparelho com parcela que cabe no bolso. Primeira consulta com condiÃ§Ã£o especial essa semana.</p>
+<div class="ctas"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20agendar%20avaliaÃ§Ã£o%20(demo)">Agendar no WhatsApp <span class="arr">â</span></a><a class="btn btn-s" href="#servicos">Ver tratamentos</a></div>
+<div class="meta"><div><b>SegâSÃ¡b</b>9h Ã s 19h</div><div><b>Campos Sales</b>Centro Â· Barueri</div><div><b>12x</b>no cartÃ£o</div></div>
+</div>
+<div class="shot reveal"><img src="https://picsum.photos/seed/dental-care-smile/880/720" alt="Sorriso saudÃ¡vel" fetchpriority="high"><div class="cap"><span>Antes e depois Â· clareamento</span><span class="pill">1 sessÃ£o</span></div></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="servicos">
+<h2>Tratamentos que mais procuram.</h2>
+<p class="lede">PreÃ§o claro antes de vocÃª sair de casa. Sem surpresa na cadeira.</p>
+<div class="grid3">
+<div class="svc reveal"><img src="https://picsum.photos/seed/dental-cleaning/700/460" alt="Limpeza" loading="lazy"><div class="pad"><h3>Limpeza + avaliaÃ§Ã£o</h3><p>Remove tÃ¡rtaro, previne cÃ¡rie e mau hÃ¡lito. Inclui plano de cuidado.</p><div class="pr"><b>R$149</b><a href="https://wa.me/5511930729435?text=Quero%20limpeza%20(demo)">Agendar â</a></div></div></div>
+<div class="svc reveal"><img src="https://picsum.photos/seed/dental-braces/700/460" alt="Aparelho" loading="lazy"><div class="pad"><h3>Aparelho e alinhadores</h3><p>MetÃ¡lico, estÃ©tico ou alinhador invisÃ­vel. ManutenÃ§Ã£o no Centro.</p><div class="pr"><b>12x R$189</b><a href="https://wa.me/5511930729435?text=Quero%20aparelho%20(demo)">Agendar â</a></div></div></div>
+<div class="svc reveal"><img src="https://picsum.photos/seed/teeth-whitening/700/460" alt="Clareamento" loading="lazy"><div class="pad"><h3>Clareamento</h3><p>Tom visÃ­vel em 1 sessÃ£o, com proteÃ§Ã£o do esmalte e sem sensibilidade extrema.</p><div class="pr"><b>R$399</b><a href="https://wa.me/5511930729435?text=Quero%20clareamento%20(demo)">Agendar â</a></div></div></div>
+</div>
+</section>
+
+<section class="sec band reveal" style="padding:40px 32px">
+<div><h2>Por que o Centro confia.</h2><p style="color:#B9D4CC;font-size:15px;margin-top:8px">ClÃ­nica de bairro, padrÃ£o de Alphaville. VocÃª resolve tudo a pÃ© da estaÃ§Ã£o.</p></div>
+<div class="row"><div class="stat"><b>+4.800</b><span>sorrisos atendidos</span></div><div class="stat"><b>4.9â</b><span>nota mÃ©dia no Google</span></div><div class="stat"><b>48h</b><span>para encaixe urgente</span></div></div>
+</section>
+
+<section class="sec">
+<h2>Quem passou, conta.</h2>
+<div class="quotes">
+<div class="q reveal"><div class="stars">âââââ</div><p>âMarquei pelo Whats em 2 minutos, na hora do almoÃ§o. SaÃ­ com a limpeza feita.â</p><footer><b>Mariana</b> Â· Jardim Belval</footer></div>
+<div class="q reveal"><div class="stars">âââââ</div><p>âTinha pavor de dentista. Explicaram tudo antes, nÃ£o senti nada.â</p><footer><b>Carlos</b> Â· Centro</footer></div>
+<div class="q reveal"><div class="stars">âââââ</div><p>âAparelho do meu filho com parcela que coube. Recomendo de olho fechado.â</p><footer><b>PatrÃ­cia</b> Â· Boa Vista</footer></div>
+</div>
+<div class="steps">
+<div class="st reveal"><span class="n">PASSO 01</span><h3>Chama no Whats</h3><p>Manda âquero horÃ¡rioâ e recebe as opÃ§Ãµes do dia.</p></div>
+<div class="st reveal"><span class="n">PASSO 02</span><h3>AvaliaÃ§Ã£o completa</h3><p>Escaneamento, plano e preÃ§o fechado antes de comeÃ§ar.</p></div>
+<div class="st reveal"><span class="n">PASSO 03</span><h3>Sorriso em dia</h3><p>Retornos agendados e lembrete automÃ¡tico no celular.</p></div>
+</div>
+<div class="faq">
+<details><summary>DÃ³i? Tenho medo de dentista</summary><p>Usamos anestesia computadorizada e explicamos cada etapa. A maioria dos pacientes relata zero dor na limpeza e no clareamento.</p></details>
+<details><summary>VocÃªs parcelam?</summary><p>Sim, em atÃ© 12x no cartÃ£o e Pix com desconto Ã  vista.</p></details>
+<details><summary>Atendem convÃªnio?</summary><p>Trabalhamos particular com nota para reembolso. Chama no Whats que verificamos seu plano.</p></details>
+</div>
+<div class="visit reveal">
+<div><h2 style="font-size:24px">Passe na Campos Sales.</h2><p style="color:var(--mut);font-size:14.5px;margin-top:6px">Rua Campos Sales, 220 Â· Centro â 2 min da EstaÃ§Ã£o Barueri Â· SegâSÃ¡b 9hâ19h Â· <a href="https://www.google.com/maps/search/?api=1&query=dentista+Campos+Sales+Centro+Barueri" style="color:var(--acc-d);font-weight:700">ver no mapa</a></p></div>
+<a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20horÃ¡rio%20essa%20semana%20(demo)">Quero horÃ¡rio essa semana <span class="arr">â</span></a>
+</div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· Feito para dentistas do Centro de Barueri Â· <a href="/portfolio/" style="color:var(--acc-d);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20agendar%20(demo)">Agendar</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.shot').classList.add('in');})();</script>
+</body></html>
+

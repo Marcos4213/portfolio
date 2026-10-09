@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Barueri Advocacia Boutique â CÃ­vel, FamÃ­lia e Empresarial | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para escritÃ³rio boutique em Barueri: cÃ­vel, famÃ­lia e empresarial com atendimento de alto padrÃ£o.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#12100D;--bg2:#1A1512;--card:#1C1613;--line:rgba(233,196,138,.18);--txt:#F3EAD9;--mut:#B3A186;--acc:#E9C48A;--green:#25D366;--r:20px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:700;line-height:1.08}
+.wrap{max-width:1180px;margin:auto;padding:0 26px}
+.demo{background:#000;color:var(--acc);font-size:12.5px;text-align:center;padding:10px 14px}.demo a{color:#fff;font-weight:700}
+.nav{position:fixed;top:16px;left:0;right:0;z-index:40;pointer-events:none}
+.nav-in{pointer-events:auto;width:max-content;max-width:calc(100vw - 28px);margin:auto;display:flex;align-items:center;gap:20px;background:rgba(20,16,13,.75);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:999px;padding:10px 10px 10px 22px}
+.brand{font-family:'Fraunces';font-size:16px;white-space:nowrap}.brand em{color:var(--acc);font-style:italic}
+.nav-in a.nl{color:#C9B99C;text-decoration:none;font-size:13px;display:none;font-family:'Plus Jakarta Sans'}
+.nav-cta{background:var(--acc);color:#241A08;font-weight:700;font-size:13px;text-decoration:none;border-radius:999px;padding:10px 18px;font-family:'Plus Jakarta Sans';transition:transform .35s var(--ease)}
+.nav-cta:hover{transform:translateY(-1px)}
+.hero{min-height:100dvh;display:grid;align-items:center;padding:130px 0 70px;background:radial-gradient(800px 500px at 90% 10%,rgba(233,196,138,.14),transparent 60%),var(--bg)}
+.hero-grid{display:grid;gap:48px;align-items:center}
+.hero h1{font-size:clamp(44px,7.4vw,84px);font-weight:500}
+.hero h1 em{font-style:italic;color:var(--acc)}
+.hero .sub{color:var(--mut);font-size:18px;max-width:30rem;margin-top:20px}
+.rule{width:64px;height:2px;background:var(--acc);margin:26px 0}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:16px 30px;font-weight:700;font-size:15px;text-decoration:none;font-family:'Plus Jakarta Sans';transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:var(--acc);color:#241A08}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(233,196,138,.3)}
+.btn-p:active{transform:scale(.98)}
+.btn-g{border:1px solid rgba(243,234,217,.3);color:var(--txt)}.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.creds{display:flex;gap:28px;flex-wrap:wrap;margin-top:34px;font-size:13px;color:var(--mut);font-family:'Plus Jakarta Sans'}
+.creds b{display:block;font-family:'Fraunces';font-size:24px;color:#fff;font-weight:500}
+.portrait{border-radius:26px;padding:12px;background:rgba(233,196,138,.06);border:1px solid var(--line)}
+.portrait img{width:100%;height:480px;object-fit:cover;border-radius:16px}
+.portrait .cap{display:flex;justify-content:space-between;padding:14px 8px 4px;font-size:13px;color:var(--mut);font-family:'Plus Jakarta Sans'}
+.sec{padding:90px 0}
+.sec h2{font-size:clamp(32px,4.8vw,54px);font-weight:500;max-width:20ch}
+.sec .lede{color:var(--mut);max-width:36rem;margin-top:12px}
+.areas{display:grid;gap:14px;margin-top:38px}
+.ar{border-top:1px solid var(--line);padding:26px 4px;display:grid;gap:6px;transition:padding .4s var(--ease)}
+.ar:hover{padding-left:14px}
+.ar:last-child{border-bottom:1px solid var(--line)}
+.ar .n{font-family:'Plus Jakarta Sans';font-size:12px;letter-spacing:.2em;color:var(--acc)}
+.ar h3{font-size:clamp(22px,3vw,32px);font-weight:500}
+.ar p{color:var(--mut);font-size:15px;max-width:44rem}
+.ar a{color:var(--acc);font-weight:700;font-size:14px;text-decoration:none;font-family:'Plus Jakarta Sans'}
+.band{display:grid;gap:26px;margin-top:70px;background:var(--bg2);border:1px solid var(--line);border-radius:26px;padding:44px 36px}
+.band .big{font-family:'Fraunces';font-size:clamp(26px,3.6vw,40px);font-style:italic;line-height:1.3}
+.band .who{font-family:'Plus Jakarta Sans';color:var(--mut);font-size:14px;margin-top:14px}
+.band .nums{display:grid;gap:12px}
+.band .n2{border-left:2px solid var(--acc);padding-left:18px}
+.band .n2 b{font-family:'Fraunces';font-size:34px;display:block;font-weight:500}
+.band .n2 span{font-size:13.5px;color:var(--mut);font-family:'Plus Jakarta Sans'}
+.method{display:grid;gap:14px;margin-top:36px}
+.m{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
+.m .n{font-family:'Plus Jakarta Sans';color:var(--acc);font-weight:800;letter-spacing:.18em;font-size:12px}
+.m h3{margin:8px 0 6px;font-size:23px}.m p{font-size:15px;color:var(--mut)}
+.faq{margin-top:30px;display:grid;gap:10px;max-width:820px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.faq summary{font-weight:700;cursor:pointer;font-size:16px}
+.faq p{font-size:15px;color:var(--mut);margin-top:8px}
+.final{margin-top:70px;background:linear-gradient(140deg,#E9C48A,#9A7434);border-radius:26px;padding:56px 36px;text-align:center;color:#241A08}
+.final h2{color:#241A08}.final p{max-width:34rem;margin:12px auto 0;font-size:16px}
+.final .btn-p{background:#241A08;color:#F3EAD9;margin-top:24px}
+footer{padding:28px 0 100px;text-align:center;font-size:12.5px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--green);color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;font-family:'Plus Jakarta Sans';box-shadow:0 14px 34px rgba(0,0,0,.5);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:960px){.nav-in a.nl{display:inline}.hero-grid{grid-template-columns:1.1fr .9fr}.band{grid-template-columns:1.3fr 1fr;align-items:center}.band .nums{grid-template-columns:1fr}.method{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:959px){.portrait img{height:340px}.sec{padding:64px 0}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â adaptamos para seu escritÃ³rio em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="brand">Barueri <em>Advocacia</em></span><a class="nl" href="#areas">Ãreas</a><a class="nl" href="#metodo">MÃ©todo</a><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20agendar%20uma%20conversa%20(demo)">Agendar conversa</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<h1>Advocacia Ã  altura do que estÃ¡ <em>em jogo.</em></h1>
+<p class="sub">CÃ­vel, famÃ­lia e empresarial para quem nÃ£o pode errar na escolha do advogado. Atendimento direto com o titular, do inÃ­cio ao fim.</p>
+<div class="rule"></div>
+<div class="hero-cta"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20agendar%20uma%20conversa%20(demo)">Agendar conversa <span class="arr">â</span></a><a class="btn btn-g" href="#areas">Ver Ã¡reas</a></div>
+<div class="creds"><div><b>22 anos</b>de advocacia</div><div><b>OAB/SP</b>desde 2003</div><div><b>Alphaville</b>e Barueri Centro</div></div>
+</div>
+<div class="portrait reveal"><img src="https://picsum.photos/seed/law-office-columns/840/960" alt="EscritÃ³rio de advocacia" fetchpriority="high"><div class="cap"><span>EscritÃ³rio Â· Barueri Centro</span><span>desde 2003</span></div></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="areas">
+<h2>TrÃªs frentes, um padrÃ£o.</h2>
+<p class="lede">Escolha a sua. Em todas, quem atende seu caso Ã© o advogado titular â nunca um estagiÃ¡rio.</p>
+<div class="areas">
+<div class="ar reveal"><span class="n">01 â FAMÃLIA E SUCESSÃES</span><h3>DivÃ³rcio, guarda, pensÃ£o e inventÃ¡rio sem guerra.</h3><p>Acordos que protegem seus filhos e seu patrimÃ´nio, com discriÃ§Ã£o absoluta. MediaÃ§Ã£o antes de litÃ­gio, sempre.</p><a href="https://wa.me/5511930729435?text=Quero%20falar%20sobre%20famÃ­lia%20(demo)">Falar sobre meu caso â</a></div>
+<div class="ar reveal"><span class="n">02 â CÃVEL E CONTRATOS</span><h3>CobranÃ§as, indenizaÃ§Ãµes e contratos blindados.</h3><p>Para pessoas e empresas que precisam resolver â ou prevenir â com fundamento.</p><a href="https://wa.me/5511930729435?text=Quero%20falar%20sobre%20cÃ­vel%20(demo)">Falar sobre meu caso â</a></div>
+<div class="ar reveal"><span class="n">03 â EMPRESARIAL</span><h3>SocietÃ¡rio e consultivo para empresas da regiÃ£o.</h3><p>Contratos, sociedades e risco trabalhista mapeado antes de virar processo.</p><a href="https://wa.me/5511930729435?text=Quero%20falar%20sobre%20empresarial%20(demo)">Falar sobre minha empresa â</a></div>
+</div>
+<div class="band reveal">
+<div><p class="big">âContratei pelo currÃ­culo, fiquei pelo cuidado. Cada petiÃ§Ã£o explicada, cada prazo cumprido.â</p><p class="who"><b style="color:#fff">EmpresÃ¡rio do setor logÃ­stico</b> Â· Alphaville â cliente hÃ¡ 6 anos</p></div>
+<div class="nums"><div class="n2"><b>+1.200</b><span>casos conduzidos</span></div><div class="n2"><b>R$40 mi</b><span>em interesses defendidos*</span></div><div class="n2"><b>100%</b><span>dos casos com titular Ã  frente</span></div></div>
+</div>
+</section>
+
+<section class="sec" id="metodo" style="padding-top:0">
+<h2>O mÃ©todo do escritÃ³rio.</h2>
+<div class="method">
+<div class="m reveal"><span class="n">I</span><h3>Escuta</h3><p>Primeira conversa de 40 minutos para entender fatos, provas e o que vocÃª espera.</p></div>
+<div class="m reveal"><span class="n">II</span><h3>EstratÃ©gia</h3><p>Parecer honesto: chances, prazos, custos e o melhor caminho â acordo ou aÃ§Ã£o.</p></div>
+<div class="m reveal"><span class="n">III</span><h3>ExecuÃ§Ã£o</h3><p>ConduÃ§Ã£o pelo titular com atualizaÃ§Ãµes mensais, sem vocÃª precisar cobrar.</p></div>
+</div>
+<div class="faq">
+<details><summary>Como sÃ£o cobrados os honorÃ¡rios?</summary><p>Conforme a tabela OAB/SP, com proposta fechada antes de comeÃ§ar. Sem surpresa no meio do caminho.</p></details>
+<details><summary>VocÃªs atendem online?</summary><p>Sim, primeira conversa por vÃ­deo ou presencial no Centro de Barueri. Processos 100% digitais.</p></details>
+<details><summary>Meu caso Ã© sigiloso?</summary><p>Absolutamente. Sigilo profissional garantido pelo Estatuto da Advocacia.</p></details>
+</div>
+<div class="final reveal"><h2>Converse antes de decidir.</h2><p>A escolha do advogado define o resultado. Agende uma conversa e sinta a diferenÃ§a do atendimento.</p><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20agendar%20uma%20conversa%20(demo)">Agendar conversa <span class="arr">â</span></a></div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· *Valores ilustrativos Â· Publicidade conforme Provimento OAB 205/2021<br><a href="/portfolio/" style="color:var(--acc);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20agendar%20(demo)">Agendar conversa</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.portrait').classList.add('in');})();</script>
+</body></html>
+

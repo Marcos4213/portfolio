@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Corte Fino â Barbearia no Centro de Barueri | Modelo DevBrasil</title>
+<meta name="description" content="Modelo de pÃ¡gina para barbearia no Centro de Barueri: reservar corte no WhatsApp, serviÃ§os, preÃ§os e avaliaÃ§Ãµes.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0D0C0A;--bg2:#141210;--card:#171412;--line:rgba(255,255,255,.1);--txt:#F2EDE6;--mut:#A89C8E;--acc:#E9A825;--gold:#E9A825;--green:#25D366;--r:20px;--ease:cubic-bezier(.32,.72,0,1)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Sora',sans-serif;letter-spacing:-.02em;line-height:1.08}
+.wrap{max-width:1120px;margin:auto;padding:0 22px}
+.demo{background:#000;color:var(--gold);font-size:12.5px;text-align:center;padding:10px 14px}.demo a{color:#fff;font-weight:700}
+.nav{position:sticky;top:0;z-index:30;background:rgba(13,12,10,.86);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1120px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Sora';font-weight:800;font-size:18px;letter-spacing:.04em}.logo em{color:var(--acc);font-style:normal}
+.nav-cta{background:var(--acc);color:#231500;text-decoration:none;font-weight:700;font-size:13.5px;border-radius:999px;padding:11px 20px;transition:transform .35s var(--ease),background .35s}
+.nav-cta:hover{background:#f5b942;transform:translateY(-1px)}
+.hero{min-height:92dvh;display:grid;align-items:center;padding:56px 0 40px;background:radial-gradient(720px 440px at 85% 0%,rgba(233,168,37,.18),transparent 60%),var(--bg)}
+.hero-grid{display:grid;gap:40px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(233,168,37,.45);border-radius:999px;padding:8px 16px}
+.hero h1{font-size:clamp(40px,6.8vw,70px);margin:20px 0 14px}
+.hero h1 .u{color:var(--acc)}
+.hero .sub{color:var(--mut);font-size:17px;max-width:32rem}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 28px;font-weight:700;font-size:15px;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s,background .35s}
+.btn-p{background:var(--green);color:#04331C}.btn-p:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(37,211,102,.35)}
+.btn-p:active{transform:scale(.98)}
+.btn-g{border:1px solid rgba(255,255,255,.28);color:#fff}.btn-g:hover{border-color:#fff;transform:translateY(-2px)}
+.btn .arr{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.14);display:inline-flex;align-items:center;justify-content:center}
+.meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:30px;font-size:13px;color:var(--mut)}
+.meta b{display:block;font-family:'Sora';font-size:21px;color:#fff}
+.shot{border-radius:24px;padding:10px;background:rgba(255,255,255,.05);border:1px solid var(--line)}
+.shot img{width:100%;height:420px;object-fit:cover;border-radius:16px}
+.shot .cap{display:flex;justify-content:space-between;padding:12px 8px 4px;font-size:13px;color:var(--mut)}
+.pill{background:var(--acc);color:#231500;font-weight:700;font-size:11px;border-radius:999px;padding:4px 10px}
+.sec{padding:72px 0}
+.sec h2{font-size:clamp(28px,4.4vw,44px);margin:12px 0 8px}
+.lede{color:var(--mut);max-width:36rem}
+.plans{display:grid;gap:14px;margin-top:30px}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;position:relative;transition:transform .5s var(--ease),border-color .5s,box-shadow .5s}
+.plan:hover{transform:translateY(-4px);border-color:rgba(233,168,37,.55);box-shadow:0 20px 44px rgba(0,0,0,.4)}
+.plan.hot{border:2px solid var(--acc)}
+.plan .flag{position:absolute;top:-13px;left:22px;background:var(--acc);color:#231500;font-size:11px;font-weight:800;letter-spacing:.1em;border-radius:999px;padding:5px 12px}
+.plan h3{font-size:20px}.plan p{font-size:14px;color:var(--mut);margin:6px 0 4px}
+.plan ul{list-style:none;margin:14px 0;display:grid;gap:8px;font-size:14px;color:#D8CFC2}
+.plan ul li:before{content:"â ";color:var(--acc);font-weight:700}
+.plan .pr{display:flex;justify-content:space-between;align-items:center}
+.plan .pr b{font-family:'Sora';font-size:30px;color:var(--gold)}
+.plan .pr a{background:var(--acc);color:#231500;font-weight:700;font-size:14px;text-decoration:none;border-radius:999px;padding:12px 20px;transition:transform .3s var(--ease)}
+.plan .pr a:hover{transform:translateY(-2px)}
+.combo{background:linear-gradient(120deg,#E9A825,#8A5410);border-radius:22px;padding:34px 30px;margin-top:16px;display:grid;gap:12px;color:#fff;position:relative;overflow:hidden}
+.combo h3{font-size:28px}.combo p{color:#F7E7C6;max-width:32rem}
+.combo .row{display:flex;gap:12px;flex-wrap:wrap}
+.combo .btn-p{background:#111;color:#fff}
+.hours{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:22px;display:grid;gap:10px}
+.hours .ln{display:flex;justify-content:space-between;font-size:14.5px;border-bottom:1px dashed rgba(255,255,255,.14);padding-bottom:10px}
+.hours .ln:last-child{border:none;padding:none}
+.hours .ln b{color:var(--gold)}
+.quotes{display:grid;gap:14px;margin-top:26px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
+.q .st{color:var(--gold);letter-spacing:2px}.q p{font-size:15.5px;margin-top:6px}.q footer{margin-top:12px;font-size:13px;color:var(--mut)}.q footer b{color:#fff}
+.faq{margin-top:24px;display:grid;gap:10px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.faq summary{font-weight:700;cursor:pointer;font-size:15px}
+.faq p{font-size:14px;color:var(--mut);margin-top:8px}
+.visit{background:#fff;color:#171207;border-radius:22px;padding:34px;margin-top:26px;display:grid;gap:16px;text-align:center}
+.visit p{color:#7A6A55;font-size:14.5px}
+.visit .btn-p{justify-content:center}
+footer{padding:26px 0 96px;text-align:center;font-size:12.5px;color:var(--mut)}
+.wa-float{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--green);color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:15px 22px;box-shadow:0 14px 34px rgba(0,0,0,.45);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(min-width:900px){.hero-grid{grid-template-columns:1fr 1fr}.plans{grid-template-columns:repeat(3,1fr)}.combo{grid-template-columns:1.4fr 1fr;align-items:center}.quotes{grid-template-columns:repeat(3,1fr)}.hours{grid-template-columns:1fr 1fr;gap:26px}}
+@media(max-width:899px){.shot img{height:300px}.sec{padding:54px 0}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="demo">MODELO DE DEMONSTRAÃÃO Â· DevBrasil Sites â trocamos nome, fotos, preÃ§os e Whats da sua barbearia em 48h Â· <a href="/portfolio/">ver portfÃ³lio</a></div>
+<div class="nav"><div class="nav-in"><span class="logo">CORTE <em>FINO</em></span><a class="nav-cta" href="https://wa.me/5511930729435?text=Quero%20reservar%20corte%20(demo)">Reservar corte â</a></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<span class="eyebrow">Centro Â· Barueri â desde 2019</span>
+<h1>Corte afiado, <span class="u">sem espera.</span></h1>
+<p class="sub">Reserva no Whats em 30 segundos, cerveja gelada e acabamento no detalhe. Do clÃ¡ssico ao degradÃª navalhado.</p>
+<div class="ctas"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20reservar%20corte%20(demo)">Reservar horÃ¡rio <span class="arr">â</span></a><a class="btn btn-g" href="#servicos">Ver preÃ§os</a></div>
+<div class="meta"><div><b>4.9â</b>260 avaliaÃ§Ãµes</div><div><b>SegâSÃ¡b</b>9h Ã s 20h</div><div><b>Centro</b>Av. 26 de MarÃ§o</div></div>
+</div>
+<div class="shot reveal"><img src="https://picsum.photos/seed/barbershop-fade-cut/880/840" alt="Corte degradÃª" fetchpriority="high"><div class="cap"><span>DegradÃª navalhado Â· de hoje</span><span class="pill">vagas hoje</span></div></div>
+</div></header>
+
+<div class="wrap">
+<section class="sec" id="servicos">
+<h2>PreÃ§o fechado, sem surpresa.</h2>
+<p class="lede">Escolhe, reserva e chega na hora. Cadeira esperando, sem fila.</p>
+<div class="plans">
+<div class="plan reveal"><h3>Corte</h3><p>Tesoura ou mÃ¡quina, finalizaÃ§Ã£o com pomada.</p><ul><li>Lavagem + corte</li><li>Acabamento navalhado</li><li>CafÃ© ou cerveja</li></ul><div class="pr"><b>R$50</b><a href="https://wa.me/5511930729435?text=Quero%20corte%20R50%20(demo)">Reservar</a></div></div>
+<div class="plan hot reveal"><span class="flag">MAIS PEDIDO</span><h3>Corte + barba</h3><p>Ritual completo com toalha quente.</p><ul><li>Tudo do corte</li><li>Barba + toalha quente</li><li>HidrataÃ§Ã£o facial</li></ul><div class="pr"><b>R$85</b><a href="https://wa.me/5511930729435?text=Quero%20corte%20barba%20R85%20(demo)">Reservar</a></div></div>
+<div class="plan reveal"><h3>Plano mensal</h3><p>2 cortes no mÃªs + 10% em produto.</p><ul><li>HorÃ¡rio fixo seu</li><li>Prioridade sÃ¡bado</li><li>Barba com desconto</li></ul><div class="pr"><b>R$89</b><a href="https://wa.me/5511930729435?text=Quero%20plano%20mensal%20(demo)">Reservar</a></div></div>
+</div>
+<div class="combo reveal">
+<div><h3>SÃ¡bado sem fila existe.</h3><p>Quem reserva pelo Whats passa na frente de quem chega andando. Garanta seu horÃ¡rio atÃ© sexta Ã  noite.</p></div>
+<div class="row"><a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20sÃ¡bado%20(demo)">Garantir meu sÃ¡bado <span class="arr">â</span></a></div>
+</div>
+<div class="hours reveal">
+<div><div class="ln"><span>Segunda â Sexta</span><b>9h Ã s 20h</b></div><div class="ln"><span>SÃ¡bado</span><b>8h Ã s 18h Â· sÃ³ reserva</b></div></div>
+<div><div class="ln"><span>Av. 26 de MarÃ§o</span><b>Centro Â· Barueri</b></div><div class="ln"><span>DuraÃ§Ã£o mÃ©dia</span><b>40 min por corte</b></div></div>
+</div>
+</section>
+
+<section class="sec" style="padding-top:0">
+<h2>Quem corta aqui, volta.</h2>
+<div class="quotes">
+<div class="q reveal"><div class="st">âââââ</div><p>âReservei no almoÃ§o e Ã s 18h jÃ¡ tava cortado. Sem esperar ninguÃ©m.â</p><footer><b>Diego</b> Â· Centro</footer></div>
+<div class="q reveal"><div class="st">âââââ</div><p>âMelhor degradÃª que jÃ¡ fizeram no meu cabelo. Acabamento impecÃ¡vel.â</p><footer><b>Thiago</b> Â· Belval</footer></div>
+<div class="q reveal"><div class="st">âââââ</div><p>âPlano mensal vale cada centavo. SÃ¡bado garantido.â</p><footer><b>Lucas</b> Â· TamborÃ©</footer></div>
+</div>
+<div class="faq">
+<details><summary>Precisa reservar ou posso chegar?</summary><p>Pode chegar, mas reserva passa na frente. SÃ¡bado sÃ³ com reserva.</p></details>
+<details><summary>Quanto tempo dura o corte?</summary><p>Em mÃ©dia 40 minutos. Corte + barba, cerca de 1h10.</p></details>
+<details><summary>Quais pagamentos?</summary><p>Pix, dÃ©bito, crÃ©dito e dinheiro. Plano mensal no cartÃ£o.</p></details>
+</div>
+<div class="visit">
+<div><h2 style="font-family:'Sora'">Passe na 26 de MarÃ§o.</h2><p>Av. 26 de MarÃ§o Â· Centro, Barueri Â· responde em minutos</p></div>
+<a class="btn btn-p" href="https://wa.me/5511930729435?text=Quero%20reservar%20(demo)">Reservar agora <span class="arr">â</span></a>
+</div>
+</section>
+</div>
+<footer>Modelo demonstraÃ§Ã£o DevBrasil Sites Â· Feito para barbearias de Barueri Â· <a href="/portfolio/" style="color:var(--acc);font-weight:700">ver portfÃ³lio</a></footer>
+<a class="wa-float" href="https://wa.me/5511930729435?text=Quero%20reservar%20(demo)">Reservar</a>
+<script>(function(){var e=document.querySelectorAll('.reveal');if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});e.forEach(function(x){io.observe(x)});document.querySelector('.shot').classList.add('in');})();</script>
+</body></html>
+
